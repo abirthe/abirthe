@@ -19,7 +19,7 @@
     <a href="https://github.com/abirthe?tab=followers"><img src="https://img.shields.io/github/followers/abirthe?label=Followers&style=for-the-badge&logo=github&color=080c16&logoColor=00f0ff" alt="Followers" /></a>
     <a href="mailto:md.abirsharif68@gmail.com"><img src="https://img.shields.io/badge/Email-md.abirsharif68%40gmail.com-080c16?style=for-the-badge&logo=gmail&logoColor=ea4335" alt="Email" /></a>
     <a href="https://farmdirect-hub.vercel.app"><img src="https://img.shields.io/badge/🌾_AgroDirect-Live_App-080c16?style=for-the-badge&logo=vercel&logoColor=10b981" alt="AgroDirect Demo" /></a>
-    <a href="https://code-conduit-express-ochre.vercel.app"><img src="https://img.shields.io/badge/🎮_RetroHub-Live_App-080c16?style=for-the-badge&logo=vercel&logoColor=a855f7" alt="RetroHub Demo" /></a>
+    <a href="https://retrohub.tech"><img src="https://img.shields.io/badge/🎮_RetroHub-Live_App-080c16?style=for-the-badge&logo=vercel&logoColor=a855f7" alt="RetroHub Demo" /></a>
   </p>
 
 </div>
@@ -83,7 +83,7 @@ Hardened Backend (Supabase PostgreSQL 15: 31 Migrations)
     <td width="50%" valign="top">
       <h3 align="center">🎮 <a href="https://github.com/abirthe/retrohub">RetroHub</a></h3>
       <p align="center">
-        <a href="https://code-conduit-express-ochre.vercel.app"><img src="https://img.shields.io/badge/Live_App-code--conduit--express-00f0ff?style=flat-square&logo=vercel&logoColor=black" alt="Live App" /></a>
+        <a href="https://retrohub.tech"><img src="https://img.shields.io/badge/Live_App-retrohub.tech-00f0ff?style=flat-square&logo=vercel&logoColor=black" alt="Live App" /></a>
         <a href="https://github.com/abirthe/retrohub"><img src="https://img.shields.io/badge/GitHub-abirthe%2Fretrohub-181717?style=flat-square&logo=github&logoColor=white" alt="Repo" /></a>
         <br/>
         <img src="https://img.shields.io/badge/Vitest-27%20Tests%20Passing-38a169?style=flat-square&logo=vitest&logoColor=white" alt="Vitest" />
