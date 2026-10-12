@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 160" width="100%" height="100%">
+  <defs>
+    <linearGradient id="matrixBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080c16" />
+      <stop offset="100%" stop-color="#0c1220" />
+    </linearGradient>
+
+    <linearGradient id="cardBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#334155" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#1e293b" stop-opacity="0.4" />
+    </linearGradient>
+
+    <linearGradient id="glowG" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f0ff" />
+      <stop offset="100%" stop-color="#8b5cf6" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    .card-title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 13.5px; font-weight: 700; fill: #ffffff; }
+    .card-desc { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 11px; font-weight: 400; fill: #94a3b8; }
+    .pill-icon { font-size: 16px; }
+  </style>
+
+  <!-- Background Base -->
+  <rect x="2" y="2" width="876" height="156" rx="14" fill="url(#matrixBg)" stroke="#1e293b" stroke-width="1.2" />
+
+  <!-- 4 Bento Cards -->
+  <!-- Col 1 -->
+  <g transform="translate(16, 16)">
+    <rect x="0" y="0" width="200" height="128" rx="10" fill="#0f172a" stroke="#00f0ff" stroke-opacity="0.35" stroke-width="1" />
+    <text x="14" y="28" class="pill-icon">🧪</text>
+    <text x="38" y="27" class="card-title">Zero-Defect Quality</text>
+    <text x="14" y="52" class="card-desc">148+ Vitest suites executed</text>
+    <text x="14" y="70" class="card-desc">Strict TypeScript typing</text>
+    <text x="14" y="88" class="card-desc">Zero compiler/lint errors</text>
+    <text x="14" y="106" class="card-desc" fill="#38bdf8" font-weight="600">Mathematically proven</text>
+  </g>
+
+  <!-- Col 2 -->
+  <g transform="translate(230, 16)">
+    <rect x="0" y="0" width="200" height="128" rx="10" fill="#0f172a" stroke="#10b981" stroke-opacity="0.35" stroke-width="1" />
+    <text x="14" y="28" class="pill-icon">🛡️</text>
+    <text x="38" y="27" class="card-title">Defense-in-Depth</text>
+    <text x="14" y="52" class="card-desc">Default-Deny RLS policies</text>
+    <text x="14" y="70" class="card-desc">Atomic SECURITY DEFINER</text>
+    <text x="14" y="88" class="card-desc">Server-authoritative prices</text>
+    <text x="14" y="106" class="card-desc" fill="#34d399" font-weight="600">Zero client tampering</text>
+  </g>
+
+  <!-- Col 3 -->
+  <g transform="translate(444, 16)">
+    <rect x="0" y="0" width="200" height="128" rx="10" fill="#0f172a" stroke="#a855f7" stroke-opacity="0.35" stroke-width="1" />
+    <text x="14" y="28" class="pill-icon">⚡</text>
+    <text x="38" y="27" class="card-title">Edge &amp; Bot Relay</text>
+    <text x="14" y="52" class="card-desc">Cloudflare Worker sliding rates</text>
+    <text x="14" y="70" class="card-desc">Dual-bot Telegram triage</text>
+    <text x="14" y="88" class="card-desc">xAI Grok customer support</text>
+    <text x="14" y="106" class="card-desc" fill="#c084fc" font-weight="600">Autonomous operations</text>
+  </g>
+
+  <!-- Col 4 -->
+  <g transform="translate(658, 16)">
+    <rect x="0" y="0" width="206" height="128" rx="10" fill="#0f172a" stroke="#ec4899" stroke-opacity="0.35" stroke-width="1" />
+    <text x="14" y="28" class="pill-icon">📜</text>
+    <text x="38" y="27" class="card-title">Immutable Ledgers</text>
+    <text x="14" y="52" class="card-desc">SHA-256 chained audit logs</text>
+    <text x="14" y="70" class="card-desc">Batch QR batch passports</text>
+    <text x="14" y="88" class="card-desc">Cryptographic provenance</text>
+    <text x="14" y="106" class="card-desc" fill="#f472b6" font-weight="600">Verifiable trust</text>
+  </g>
+</svg>

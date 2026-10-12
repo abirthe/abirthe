@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 220" width="100%" height="100%">
+  <defs>
+    <linearGradient id="agroBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06120e" />
+      <stop offset="50%" stop-color="#0a1d17" />
+      <stop offset="100%" stop-color="#040b08" />
+    </linearGradient>
+
+    <linearGradient id="agroBorder" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0.7" />
+      <stop offset="50%" stop-color="#06b6d4" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#10b981" stop-opacity="0.5" />
+    </linearGradient>
+
+    <linearGradient id="emeraldText" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#34d399" />
+      <stop offset="100%" stop-color="#22d3ee" />
+    </linearGradient>
+
+    <radialGradient id="agroGlow" cx="80%" cy="20%" r="55%">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
+    </radialGradient>
+
+    <pattern id="agroGrid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="12" cy="12" r="0.8" fill="#10b981" fill-opacity="0.2" />
+    </pattern>
+  </defs>
+
+  <style>
+    .title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', sans-serif; font-size: 24px; font-weight: 800; }
+    .sub { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', sans-serif; font-size: 13.5px; font-weight: 500; fill: #94a3b8; }
+    .badge-mono { font-family: 'SF Mono', 'Fira Code', monospace; font-size: 11px; font-weight: 600; }
+    .stat-val { font-family: 'SF Mono', 'Fira Code', monospace; font-size: 14px; font-weight: 700; fill: #34d399; }
+    .stat-label { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 10px; font-weight: 600; fill: #64748b; letter-spacing: 0.5px; }
+  </style>
+
+  <!-- Container Box -->
+  <rect x="2" y="2" width="876" height="216" rx="16" fill="url(#agroBg)" stroke="url(#agroBorder)" stroke-width="1.2" />
+  <rect x="2" y="2" width="876" height="216" rx="16" fill="url(#agroGlow)" />
+  <rect x="2" y="2" width="876" height="216" rx="16" fill="url(#agroGrid)" />
+
+  <!-- Top Category Tag & Live Link Indicator -->
+  <g transform="translate(26, 22)">
+    <rect x="0" y="0" width="240" height="24" rx="12" fill="#04231b" stroke="#10b981" stroke-opacity="0.5" stroke-width="1" />
+    <text x="14" y="16" fill="#34d399" class="badge-mono">🌾 AGTECH &amp; SPATIAL GIS B2B</text>
+  </g>
+
+  <g transform="translate(680, 22)">
+    <rect x="0" y="0" width="170" height="24" rx="12" fill="#071e22" stroke="#06b6d4" stroke-opacity="0.5" stroke-width="1" />
+    <text x="14" y="16" fill="#22d3ee" class="badge-mono">🚀 LIVE IN PRODUCTION</text>
+  </g>
+
+  <!-- Main Title -->
+  <text x="26" y="80" fill="url(#emeraldText)" class="title">AgroDirect (FarmDirect Hub)</text>
+  <text x="26" y="104" class="sub">Autonomous Precision Agriculture Infrastructure &amp; Automated Agronomic Intelligence Platform</text>
+
+  <!-- Feature Bullet Highlights in Grid -->
+  <g transform="translate(26, 126)">
+    <!-- Item 1 -->
+    <g transform="translate(0, 0)">
+      <rect x="0" y="0" width="200" height="32" rx="8" fill="#061e16" stroke="#10b981" stroke-opacity="0.3" stroke-width="1" />
+      <text x="10" y="20" fill="#a7f3d0" font-family="'Segoe UI', sans-serif" font-size="11.5px" font-weight="600">🛰️ Leaflet GIS &amp; WGS84 HUD</text>
+    </g>
+
+    <!-- Item 2 -->
+    <g transform="translate(210, 0)">
+      <rect x="0" y="0" width="200" height="32" rx="8" fill="#061e16" stroke="#10b981" stroke-opacity="0.3" stroke-width="1" />
+      <text x="10" y="20" fill="#a7f3d0" font-family="'Segoe UI', sans-serif" font-size="11.5px" font-weight="600">🧠 In-Browser ML Yield Forecast</text>
+    </g>
+
+    <!-- Item 3 -->
+    <g transform="translate(420, 0)">
+      <rect x="0" y="0" width="200" height="32" rx="8" fill="#061e16" stroke="#10b981" stroke-opacity="0.3" stroke-width="1" />
+      <text x="10" y="20" fill="#a7f3d0" font-family="'Segoe UI', sans-serif" font-size="11.5px" font-weight="600">💳 bKash Escrow &amp; Audit Log</text>
+    </g>
+
+    <!-- Item 4 -->
+    <g transform="translate(630, 0)">
+      <rect x="0" y="0" width="195" height="32" rx="8" fill="#061e16" stroke="#10b981" stroke-opacity="0.3" stroke-width="1" />
+      <text x="10" y="20" fill="#a7f3d0" font-family="'Segoe UI', sans-serif" font-size="11.5px" font-weight="600">📦 QR Batch Traceability Passports</text>
+    </g>
+  </g>
+
+  <!-- Bottom Metrics Row -->
+  <g transform="translate(26, 178)">
+    <text x="0" y="16" class="stat-val">121/121</text>
+    <text x="80" y="16" class="stat-label">TESTS PASSING</text>
+
+    <text x="190" y="16" class="stat-val">31</text>
+    <text x="215" y="16" class="stat-label">PG MIGRATIONS (RLS)</text>
+
+    <text x="380" y="16" class="stat-val">0</text>
+    <text x="396" y="16" class="stat-label">LINT WARNINGS</text>
+
+    <text x="530" y="16" class="stat-val">React 18 • TypeScript 5.5 • Supabase • Vite • Leaflet</text>
+  </g>
+</svg>

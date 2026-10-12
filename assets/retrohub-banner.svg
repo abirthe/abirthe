@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 220" width="100%" height="100%">
+  <defs>
+    <linearGradient id="retroBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090a16" />
+      <stop offset="50%" stop-color="#111124" />
+      <stop offset="100%" stop-color="#070611" />
+    </linearGradient>
+
+    <linearGradient id="retroBorder" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f0ff" stop-opacity="0.7" />
+      <stop offset="50%" stop-color="#a855f7" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#ec4899" stop-opacity="0.6" />
+    </linearGradient>
+
+    <linearGradient id="cyberText" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f0ff" />
+      <stop offset="50%" stop-color="#c084fc" />
+      <stop offset="100%" stop-color="#f472b6" />
+    </linearGradient>
+
+    <radialGradient id="retroGlow" cx="80%" cy="20%" r="55%">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.22" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
+    </radialGradient>
+
+    <pattern id="retroGrid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="12" cy="12" r="0.8" fill="#a855f7" fill-opacity="0.2" />
+    </pattern>
+  </defs>
+
+  <style>
+    .title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', sans-serif; font-size: 24px; font-weight: 800; }
+    .sub { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', sans-serif; font-size: 13.5px; font-weight: 500; fill: #94a3b8; }
+    .badge-mono { font-family: 'SF Mono', 'Fira Code', monospace; font-size: 11px; font-weight: 600; }
+    .stat-val { font-family: 'SF Mono', 'Fira Code', monospace; font-size: 14px; font-weight: 700; fill: #00f0ff; }
+    .stat-label { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 10px; font-weight: 600; fill: #64748b; letter-spacing: 0.5px; }
+  </style>
+
+  <!-- Container Box -->
+  <rect x="2" y="2" width="876" height="216" rx="16" fill="url(#retroBg)" stroke="url(#retroBorder)" stroke-width="1.2" />
+  <rect x="2" y="2" width="876" height="216" rx="16" fill="url(#retroGlow)" />
+  <rect x="2" y="2" width="876" height="216" rx="16" fill="url(#retroGrid)" />
+
+  <!-- Top Category Tag & Live Link Indicator -->
+  <g transform="translate(26, 22)">
+    <rect x="0" y="0" width="265" height="24" rx="12" fill="#041a22" stroke="#00f0ff" stroke-opacity="0.5" stroke-width="1" />
+    <text x="14" y="16" fill="#38bdf8" class="badge-mono">🎮 DIGITAL COMMERCE &amp; BOT RELAY</text>
+  </g>
+
+  <g transform="translate(680, 22)">
+    <rect x="0" y="0" width="170" height="24" rx="12" fill="#1b0f27" stroke="#a855f7" stroke-opacity="0.5" stroke-width="1" />
+    <text x="14" y="16" fill="#c084fc" class="badge-mono">⚡ v1.3.0 PRODUCTION</text>
+  </g>
+
+  <!-- Main Title -->
+  <text x="26" y="80" fill="url(#cyberText)" class="title">RetroHub</text>
+  <text x="26" y="104" class="sub">High-Performance Game Key &amp; In-Game Currency Platform with Dual-Bot Telegram Automation</text>
+
+  <!-- Feature Bullet Highlights in Grid -->
+  <g transform="translate(26, 126)">
+    <!-- Item 1 -->
+    <g transform="translate(0, 0)">
+      <rect x="0" y="0" width="200" height="32" rx="8" fill="#131428" stroke="#8b5cf6" stroke-opacity="0.3" stroke-width="1" />
+      <text x="10" y="20" fill="#d8b4fe" font-family="'Segoe UI', sans-serif" font-size="11.5px" font-weight="600">🤖 Dual Telegram Bots (@retrochan)</text>
+    </g>
+
+    <!-- Item 2 -->
+    <g transform="translate(210, 0)">
+      <rect x="0" y="0" width="200" height="32" rx="8" fill="#131428" stroke="#8b5cf6" stroke-opacity="0.3" stroke-width="1" />
+      <text x="10" y="20" fill="#d8b4fe" font-family="'Segoe UI', sans-serif" font-size="11.5px" font-weight="600">🧠 xAI Grok AI Customer Triage</text>
+    </g>
+
+    <!-- Item 3 -->
+    <g transform="translate(420, 0)">
+      <rect x="0" y="0" width="200" height="32" rx="8" fill="#131428" stroke="#8b5cf6" stroke-opacity="0.3" stroke-width="1" />
+      <text x="10" y="20" fill="#d8b4fe" font-family="'Segoe UI', sans-serif" font-size="11.5px" font-weight="600">💳 bKash P2P &amp; Stripe USD Rails</text>
+    </g>
+
+    <!-- Item 4 -->
+    <g transform="translate(630, 0)">
+      <rect x="0" y="0" width="195" height="32" rx="8" fill="#131428" stroke="#8b5cf6" stroke-opacity="0.3" stroke-width="1" />
+      <text x="10" y="20" fill="#d8b4fe" font-family="'Segoe UI', sans-serif" font-size="11.5px" font-weight="600">⚡ Cloudflare Workers Rate-Limit</text>
+    </g>
+  </g>
+
+  <!-- Bottom Metrics Row -->
+  <g transform="translate(26, 178)">
+    <text x="0" y="16" class="stat-val">27/27</text>
+    <text x="65" y="16" class="stat-label">VITEST PASSED</text>
+
+    <text x="175" y="16" class="stat-val">35</text>
+    <text x="200" y="16" class="stat-label">MIGRATIONS (SECURITY DEFINER)</text>
+
+    <text x="410" y="16" class="stat-val">0</text>
+    <text x="425" y="16" class="stat-label">TYPE ERRORS</text>
+
+    <text x="540" y="16" class="stat-val">React 18 • TypeScript 5.8 • Cloudflare • Supabase • Stripe</text>
+  </g>
+</svg>
