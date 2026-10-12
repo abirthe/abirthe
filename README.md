@@ -9,17 +9,17 @@
 
   <!-- Interactive Typing Animation -->
   <a href="https://github.com/abirthe">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=00F0FF&center=true&vCenter=true&width=750&lines=Full-Stack+Architect+%26+Autonomous+Systems+Engineer;Building+Resilient+FinTech%2C+MFS+Escrow+%26+AgTech+Platforms;React+18+%E2%80%A2+TypeScript+5.8+%E2%80%A2+Supabase+%E2%80%A2+Cloudflare+Workers;Zero-Defect+Discipline+%E2%80%A2+148%2B+Passing+Vitest+Tests" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1200&color=00F0FF&center=true&vCenter=true&width=750&lines=Full-Stack+Architect+%26+Autonomous+Systems+Engineer;Building+Resilient+FinTech%2C+MFS+Escrow+%26+AgTech+Platforms;React+18+%E2%80%A2+TypeScript+5.8+%E2%80%A2+Supabase+%E2%80%A2+Cloudflare+Workers;Zero-Defect+Discipline+%E2%80%A2+148%2B+Passing+Vitest+Tests" alt="Typing SVG" />
   </a>
 
-  <br/>
+  <br/><br/>
 
-  <!-- Action & Contact Badges -->
+  <!-- Quick Action & Connect Badges -->
   <p align="center">
-    <a href="https://github.com/abirthe?tab=followers"><img src="https://img.shields.io/github/followers/abirthe?label=Followers&style=for-the-badge&logo=github&color=0b1120&logoColor=00f0ff" alt="Followers" /></a>
-    <a href="mailto:md.abirsharif68@gmail.com"><img src="https://img.shields.io/badge/Email-md.abirsharif68%40gmail.com-0b1120?style=for-the-badge&logo=gmail&logoColor=ea4335" alt="Email" /></a>
-    <a href="https://farmdirect-hub.vercel.app"><img src="https://img.shields.io/badge/AgroDirect-Live_App-0b1120?style=for-the-badge&logo=vercel&logoColor=10b981" alt="AgroDirect Demo" /></a>
-    <a href="https://code-conduit-express-ochre.vercel.app"><img src="https://img.shields.io/badge/RetroHub-Live_App-0b1120?style=for-the-badge&logo=vercel&logoColor=a855f7" alt="RetroHub Demo" /></a>
+    <a href="https://github.com/abirthe?tab=followers"><img src="https://img.shields.io/github/followers/abirthe?label=Followers&style=for-the-badge&logo=github&color=080c16&logoColor=00f0ff" alt="Followers" /></a>
+    <a href="mailto:md.abirsharif68@gmail.com"><img src="https://img.shields.io/badge/Email-md.abirsharif68%40gmail.com-080c16?style=for-the-badge&logo=gmail&logoColor=ea4335" alt="Email" /></a>
+    <a href="https://farmdirect-hub.vercel.app"><img src="https://img.shields.io/badge/🌾_AgroDirect-Live_App-080c16?style=for-the-badge&logo=vercel&logoColor=10b981" alt="AgroDirect Demo" /></a>
+    <a href="https://code-conduit-express-ochre.vercel.app"><img src="https://img.shields.io/badge/🎮_RetroHub-Live_App-080c16?style=for-the-badge&logo=vercel&logoColor=a855f7" alt="RetroHub Demo" /></a>
   </p>
 
 </div>
@@ -44,103 +44,90 @@ I am a **Senior Full-Stack Architect & Autonomous Systems Engineer** with a focu
 
 ### 🚀 Flagship Production Systems
 
-<br/>
-
-<!-- ================= AGRODIRECT SHOWCASE ================= -->
-<div align="center">
-  <a href="https://github.com/abirthe/farmdirect-hub">
-    <img src="https://raw.githubusercontent.com/abirthe/abirthe/main/assets/agrodirect-banner.svg" alt="AgroDirect - FarmDirect Hub" width="100%" />
-  </a>
-</div>
-
-<p align="center">
-  <a href="https://farmdirect-hub.vercel.app"><img src="https://img.shields.io/badge/Production_App-farmdirect--hub.vercel.app-10b981?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo" /></a>
-  <a href="https://github.com/abirthe/farmdirect-hub"><img src="https://img.shields.io/badge/Source_Code-abirthe%2Ffarmdirect--hub-181717?style=for-the-badge&logo=github&logoColor=white" alt="Source" /></a>
-  <img src="https://img.shields.io/badge/Vitest-121_Passing_(26_Suites)-38a169?style=for-the-badge&logo=vitest&logoColor=white" alt="Vitest" />
-  <img src="https://img.shields.io/badge/Database-PostgreSQL_15_(31_Migrations)-336791?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-</p>
-
-* **Spatial GIS HUD**: Interactive parcel boundary drawing via Leaflet-Geoman with WGS84 geodesic spherical excess calculations (hectares, acres, m², and South Asian *bigha*).
-* **In-Browser ML Yield Prediction**: Dynamic forecasting engine consuming satellite NDVI vegetation vigor, soil moisture, and microclimate telemetry.
-* **Automated MFS Escrow Settlement**: Bilateral bKash escrow contracts with fee-tier management, refund dispute triage, and automated KYC/KYB screening.
-* **Farm-to-Fork Provenance**: Cryptographically verifiable batch QR traceability passports with decay rate freshness indicators.
-
-<details>
-  <summary><b>🔍 Click to Inspect AgroDirect Architectural Invariants &amp; Topology</b></summary>
-  <br/>
-
-  ```
-  Presentation Layer (React 18 + shadcn/ui + Leaflet GIS Canvas)
-       │
-       ▼ (Unidirectional Feature-Sliced Architecture)
-  Feature Layer (TanStack Query v5 + Zod Schemas + In-Browser ML + WGS84 Geo Engine)
-       │
-       ▼
-  Hardened Data Layer (Supabase PostgreSQL 15: 31 Migrations)
-       ├── Default-Deny Row Level Security (RLS)
-       ├── Transactional SECURITY DEFINER Stored Functions
-       ├── Cryptographically Chained SHA-256 Audit Trail
-       └── External Integration: Open-Meteo API + OSRM Routing Machine
-  ```
-</details>
-
-<br/><br/>
-
-<!-- ================= RETROHUB SHOWCASE ================= -->
-<div align="center">
-  <a href="https://github.com/abirthe/retrohub">
-    <img src="https://raw.githubusercontent.com/abirthe/abirthe/main/assets/retrohub-banner.svg" alt="RetroHub - Digital Commerce &amp; Telegram Bot Engine" width="100%" />
-  </a>
-</div>
-
-<p align="center">
-  <a href="https://code-conduit-express-ochre.vercel.app"><img src="https://img.shields.io/badge/Production_App-code--conduit--express--ochre.vercel.app-00f0ff?style=for-the-badge&logo=vercel&logoColor=black" alt="Live Demo" /></a>
-  <a href="https://github.com/abirthe/retrohub"><img src="https://img.shields.io/badge/Source_Code-abirthe%2Fretrohub-181717?style=for-the-badge&logo=github&logoColor=white" alt="Source" /></a>
-  <img src="https://img.shields.io/badge/Vitest-27_Passing-38a169?style=for-the-badge&logo=vitest&logoColor=white" alt="Vitest" />
-  <img src="https://img.shields.io/badge/Edge-Cloudflare_Workers-f38020?style=for-the-badge&logo=cloudflare&logoColor=white" alt="Cloudflare" />
-</p>
-
-* **Dual-Bot Telegram Orchestration Engine**:
-  * `@retrochanbot`: Customer-facing support and order tracking powered by **xAI Grok** proxy.
-  * `@Notifyretro_bot`: Real-time merchant push dispatch, TrxID verification, and instant mobile fulfillment.
-* **Multi-Gateway Payment Infrastructure**:
-  * **bKash P2P Engine**: Atomic `SECURITY DEFINER` RPC (`submit_order_payment`) with duplicate TrxID fraud prevention.
-  * **Stripe Global Checkout**: International card processing with dynamic store BDT to USD cents conversion.
-* **State Isolation & Anti-Tampering**: Per-user cart scoping (`cart_${userId}` vs `cart_guest`), server-authoritative database price re-validation (defeating client-side DOM price manipulation), and 7-stage order status lifecycle tracking with clipboard code reveal.
-* **Cloudflare Edge Infrastructure**: Sliding-window IP rate limiting (150 req/60s) with automated SPA route fallback.
-
-<details>
-  <summary><b>🔍 Click to Inspect RetroHub Dual-Bot &amp; Checkout Topology</b></summary>
-  <br/>
-
-  ```
-  [Clients: Desktop / Mobile Browser] ──► [Cloudflare Worker (Rate Limiter: 150r/60s)]
-                                                      │
-                                                      ▼
-  [React 18 SPA (TypeScript 5.8)] ───────────► [CartContext (User-Scoped Isolation)]
-       │                                              │
-       ├──► [Stripe Checkout API]                     ▼
-       ├──► [bKash P2P submit_order_payment RPC] ──► [Supabase PostgreSQL 15 (35 Migrations)]
-       │                                                      │
-       ▼                                                      ▼
-  [xAI Grok Proxy Edge Function]             [Dual Telegram Bot Automation]
-       │                                              ├── Customer: @retrochanbot (AI Triage)
-       ▼                                              └── Admin: @Notifyretro_bot (Fulfillment)
-  [Instant Resolution]
-  ```
-</details>
-
-<br/>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/abirthe/abirthe/main/assets/divider.svg" width="100%" alt="Divider" />
-</p>
-
-### 🏛️ Engineering Philosophy & System Invariants
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/abirthe/abirthe/main/assets/architecture-matrix.svg" alt="Architecture &amp; Core Tenets Matrix" width="100%" />
-</div>
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3 align="center">🌾 <a href="https://github.com/abirthe/farmdirect-hub">AgroDirect (FarmDirect Hub)</a></h3>
+      <p align="center">
+        <a href="https://farmdirect-hub.vercel.app"><img src="https://img.shields.io/badge/Live_App-farmdirect--hub.vercel.app-10b981?style=flat-square&logo=vercel&logoColor=white" alt="Live App" /></a>
+        <a href="https://github.com/abirthe/farmdirect-hub"><img src="https://img.shields.io/badge/GitHub-abirthe%2Ffarmdirect--hub-181717?style=flat-square&logo=github&logoColor=white" alt="Repo" /></a>
+        <br/>
+        <img src="https://img.shields.io/badge/Vitest-121%20Tests%20Passing-38a169?style=flat-square&logo=vitest&logoColor=white" alt="Vitest" />
+        <img src="https://img.shields.io/badge/PostgreSQL-31%20Migrations%20(RLS)-336791?style=flat-square&logo=postgresql&logoColor=white" alt="Database" />
+      </p>
+      <p><b>Next-Generation Precision Agriculture B2B Marketplace &amp; Agronomic AI Engine</b></p>
+      <ul>
+        <li><b>Spatial GIS &amp; Geodesic Telemetry</b>: Interactive parcel boundary drawing via Leaflet-Geoman with WGS84 geodesic spherical excess area calculations (hectares, acres, m², bigha).</li>
+        <li><b>In-Browser ML Yield Prediction</b>: Dynamic model evaluating satellite NDVI vegetation vigor, soil moisture, and microclimate telemetry to forecast ripe harvest yield.</li>
+        <li><b>Automated MFS Escrow Contracts</b>: Bilateral bKash escrow contracts with fee-tier management, refund dispute triage, and automated KYC/KYB screening.</li>
+        <li><b>Farm-to-Fork QR Traceability</b>: Cryptographically verifiable batch QR traceability passports with decay rate freshness indicators and SHA-256 audit ledgers.</li>
+      </ul>
+      <p><b>Core Stack:</b> <code>React 18</code> • <code>TypeScript 5.5</code> • <code>Vite 5.4</code> • <code>Supabase (PostgreSQL 15)</code> • <code>Leaflet GIS</code> • <code>Tailwind CSS</code> • <code>shadcn/ui</code></p>
+      <details>
+        <summary><b>🔍 View AgroDirect System Topology</b></summary>
+        <pre>
+Presentation Layer (React 18 + shadcn/ui + Leaflet GIS)
+     │
+     ▼ (Feature-Sliced Architecture)
+Feature Layer (TanStack Query v5 + Zod + In-Browser ML + WGS84)
+     │
+     ▼
+Hardened Backend (Supabase PostgreSQL 15: 31 Migrations)
+     ├── Default-Deny Row Level Security (RLS)
+     ├── Transactional SECURITY DEFINER Stored Functions
+     ├── Cryptographically Chained SHA-256 Audit Trail
+     └── External APIs: Open-Meteo API + OSRM Routing
+        </pre>
+      </details>
+    </td>
+    <td width="50%" valign="top">
+      <h3 align="center">🎮 <a href="https://github.com/abirthe/retrohub">RetroHub</a></h3>
+      <p align="center">
+        <a href="https://code-conduit-express-ochre.vercel.app"><img src="https://img.shields.io/badge/Live_App-code--conduit--express-00f0ff?style=flat-square&logo=vercel&logoColor=black" alt="Live App" /></a>
+        <a href="https://github.com/abirthe/retrohub"><img src="https://img.shields.io/badge/GitHub-abirthe%2Fretrohub-181717?style=flat-square&logo=github&logoColor=white" alt="Repo" /></a>
+        <br/>
+        <img src="https://img.shields.io/badge/Vitest-27%20Tests%20Passing-38a169?style=flat-square&logo=vitest&logoColor=white" alt="Vitest" />
+        <img src="https://img.shields.io/badge/Cloudflare-Workers%20Edge-f38020?style=flat-square&logo=cloudflare&logoColor=white" alt="Edge" />
+      </p>
+      <p><b>Enterprise-Grade Digital Goods E-Commerce Platform &amp; Dual-Bot Telegram Relay</b></p>
+      <ul>
+        <li><b>Dual-Bot Telegram Orchestration Engine</b>:
+          <ul>
+            <li><code>@retrochanbot</code>: Customer support &amp; order tracking powered by <b>xAI Grok</b> proxy.</li>
+            <li><code>@Notifyretro_bot</code>: Instant merchant dispatch, TrxID verification &amp; mobile fulfillment.</li>
+          </ul>
+        </li>
+        <li><b>Multi-Gateway Payment Infrastructure</b>:
+          <ul>
+            <li><b>bKash P2P Engine</b>: Atomic <code>SECURITY DEFINER</code> RPC with duplicate TrxID fraud prevention.</li>
+            <li><b>Stripe Global Checkout</b>: International card processing with dynamic store BDT to USD conversion.</li>
+          </ul>
+        </li>
+        <li><b>State Isolation &amp; Security</b>: Per-user scoped carts (<code>cart_${userId}</code>), server-authoritative database price re-validation, and instant interactive digital key reveal.</li>
+        <li><b>Edge Infrastructure</b>: Cloudflare Worker sliding-window IP rate limiting (150 req/60s).</li>
+      </ul>
+      <p><b>Core Stack:</b> <code>React 18</code> • <code>TypeScript 5.8</code> • <code>Cloudflare Workers</code> • <code>Supabase</code> • <code>xAI Grok</code> • <code>Stripe</code> • <code>bKash</code></p>
+      <details>
+        <summary><b>🔍 View RetroHub System Topology</b></summary>
+        <pre>
+[Clients: Browser] ──► [Cloudflare Worker (Rate Limiter: 150r/60s)]
+                              │
+                              ▼
+[React 18 SPA] ──────► [CartContext (User Scoped)]
+     │                        │
+     ├──► [Stripe Checkout]   ▼
+     ├──► [bKash RPC] ──► [Supabase PostgreSQL 15 (35 Migrations)]
+     │                        │
+     ▼                        ▼
+[xAI Grok Proxy]        [Dual Telegram Bot Automation]
+     │                        ├── Customer: @retrochanbot (AI Triage)
+     ▼                        └── Admin: @Notifyretro_bot (Fulfillment)
+[Instant Resolution]
+        </pre>
+      </details>
+    </td>
+  </tr>
+</table>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/abirthe/abirthe/main/assets/divider.svg" width="100%" alt="Divider" />
@@ -161,36 +148,29 @@ I am a **Senior Full-Stack Architect & Autonomous Systems Engineer** with a focu
 </div>
 
 <p align="center">
-  <img src="./assets/divider.svg" width="100%" alt="Divider" />
+  <img src="https://raw.githubusercontent.com/abirthe/abirthe/main/assets/divider.svg" width="100%" alt="Divider" />
 </p>
 
-### 📊 Real-Time GitHub Telemetry
-
-<div align="center">
-  <table border="0" style="border: none;">
-    <tr>
-      <td width="50%" align="center">
-        <a href="https://github.com/abirthe">
-          <img src="https://github-readme-stats.vercel.app/api?username=abirthe&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&bg_color=090d16&title_color=00f0ff&icon_color=38bdf8&text_color=94a3b8" width="100%" alt="GitHub Stats" />
-        </a>
-      </td>
-      <td width="50%" align="center">
-        <a href="https://github.com/abirthe">
-          <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=abirthe&layout=compact&theme=tokyonight&hide_border=true&bg_color=090d16&title_color=00f0ff&text_color=94a3b8" width="100%" alt="Top Languages" />
-        </a>
-      </td>
-    </tr>
-  </table>
-  
-  <br/>
-  
-  <a href="https://github.com/abirthe">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=abirthe&theme=tokyonight&hide_border=true&background=090d16&ring=00f0ff&fire=8b5cf6&currStreakLabel=00f0ff" width="98%" alt="GitHub Streak" />
-  </a>
-</div>
+### 📊 GitHub Activity & Telemetry
 
 <p align="center">
-  <img src="./assets/divider.svg" width="100%" alt="Divider" />
+  <a href="https://github.com/abirthe">
+    <img src="https://github-readme-stats.vercel.app/api?username=abirthe&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&bg_color=080c16&title_color=00f0ff&icon_color=38bdf8&text_color=94a3b8" alt="GitHub Stats" width="48.5%" />
+  </a>
+  &nbsp;
+  <a href="https://github.com/abirthe">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=abirthe&layout=compact&theme=tokyonight&hide_border=true&bg_color=080c16&title_color=00f0ff&text_color=94a3b8" alt="Top Languages" width="48.5%" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/abirthe">
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=abirthe&theme=tokyonight&hide_border=true&background=080c16&ring=00f0ff&fire=8b5cf6&currStreakLabel=00f0ff" alt="GitHub Streak" width="98%" />
+  </a>
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/abirthe/abirthe/main/assets/divider.svg" width="100%" alt="Divider" />
 </p>
 
 ### 🤝 Connect & Collaborate

@@ -1,44 +1,44 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 270" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 220" width="100%" height="100%">
   <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#070a12" />
-      <stop offset="50%" stop-color="#0b1120" />
-      <stop offset="100%" stop-color="#050811" />
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080c16" />
+      <stop offset="50%" stop-color="#0d1527" />
+      <stop offset="100%" stop-color="#060913" />
     </linearGradient>
 
     <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#00f0ff" stop-opacity="0.6" />
-      <stop offset="50%" stop-color="#8b5cf6" stop-opacity="0.8" />
-      <stop offset="100%" stop-color="#ec4899" stop-opacity="0.6" />
+      <stop offset="0%" stop-color="#00f0ff" stop-opacity="0.8" />
+      <stop offset="50%" stop-color="#8b5cf6" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#ec4899" stop-opacity="0.8" />
     </linearGradient>
 
-    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#ffffff" />
-      <stop offset="40%" stop-color="#e2e8f0" />
-      <stop offset="100%" stop-color="#94a3b8" />
+      <stop offset="50%" stop-color="#e0f2fe" />
+      <stop offset="100%" stop-color="#93c5fd" />
     </linearGradient>
 
     <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#00f0ff" />
-      <stop offset="50%" stop-color="#a78bfa" />
-      <stop offset="100%" stop-color="#f472b6" />
+      <stop offset="50%" stop-color="#a855f7" />
+      <stop offset="100%" stop-color="#ec4899" />
     </linearGradient>
 
-    <radialGradient id="glowCyan" cx="15%" cy="25%" r="60%">
-      <stop offset="0%" stop-color="#00f0ff" stop-opacity="0.18" />
+    <radialGradient id="glowLeft" cx="15%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#00f0ff" stop-opacity="0.2" />
       <stop offset="100%" stop-color="#000000" stop-opacity="0" />
     </radialGradient>
 
-    <radialGradient id="glowPurple" cx="85%" cy="30%" r="60%">
-      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.22" />
+    <radialGradient id="glowRight" cx="85%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.25" />
       <stop offset="100%" stop-color="#000000" stop-opacity="0" />
     </radialGradient>
 
-    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
-      <circle cx="15" cy="15" r="1" fill="#334155" fill-opacity="0.3" />
+    <pattern id="gridDots" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="14" cy="14" r="1" fill="#38bdf8" fill-opacity="0.2" />
     </pattern>
 
-    <filter id="glow">
+    <filter id="neonGlow">
       <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
       <feMerge>
         <feMergeNode in="coloredBlur"/>
@@ -50,100 +50,91 @@
   <style>
     @keyframes pulse {
       0%, 100% { opacity: 1; transform: scale(1); }
-      50% { opacity: 0.4; transform: scale(0.96); }
+      50% { opacity: 0.35; transform: scale(0.9); }
     }
-    @keyframes beam {
-      0% { transform: translateX(-100%); }
-      100% { transform: translateX(100%); }
+    .pulsing-beacon {
+      animation: pulse 2s infinite ease-in-out;
+      transform-origin: 32px 34px;
     }
-    .pulsing-dot {
-      animation: pulse 2.2s infinite ease-in-out;
-      transform-origin: 52px 42px;
-    }
-    .hero-name {
+    .main-title {
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Outfit', 'Inter', Roboto, sans-serif;
-      font-size: 38px;
-      font-weight: 800;
+      font-size: 40px;
+      font-weight: 900;
       letter-spacing: -0.5px;
     }
-    .hero-sub {
+    .sub-title {
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', Roboto, sans-serif;
-      font-size: 15px;
-      font-weight: 500;
-      letter-spacing: 0.2px;
+      font-size: 15.5px;
+      font-weight: 600;
+      letter-spacing: 0.3px;
     }
-    .badge-text {
+    .tagline {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', Roboto, sans-serif;
+      font-size: 13px;
+      font-weight: 400;
+      fill: #94a3b8;
+    }
+    .mono-pill {
       font-family: 'SF Mono', 'Fira Code', 'Roboto Mono', monospace;
       font-size: 11px;
-      font-weight: 600;
+      font-weight: 700;
       letter-spacing: 0.6px;
     }
-    .pill-label {
+    .chip-text {
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', sans-serif;
-      font-size: 11.5px;
+      font-size: 12px;
       font-weight: 600;
     }
   </style>
 
-  <!-- Base Card -->
-  <rect x="2" y="2" width="896" height="266" rx="20" fill="url(#bgGrad)" stroke="url(#borderGrad)" stroke-width="1.5" />
+  <!-- Base Background -->
+  <rect x="2" y="2" width="896" height="216" rx="16" fill="url(#bg)" stroke="url(#borderGrad)" stroke-width="1.5" />
+  <rect x="2" y="2" width="896" height="216" rx="16" fill="url(#glowLeft)" />
+  <rect x="2" y="2" width="896" height="216" rx="16" fill="url(#glowRight)" />
+  <rect x="2" y="2" width="896" height="216" rx="16" fill="url(#gridDots)" />
 
-  <!-- Ambient Glows -->
-  <rect x="2" y="2" width="896" height="266" rx="20" fill="url(#glowCyan)" />
-  <rect x="2" y="2" width="896" height="266" rx="20" fill="url(#glowPurple)" />
-
-  <!-- Subtle Dot Grid Overlay -->
-  <rect x="2" y="2" width="896" height="266" rx="20" fill="url(#grid)" />
-
-  <!-- Top Status Pill -->
-  <g transform="translate(30, 26)">
-    <rect x="0" y="0" width="310" height="28" rx="14" fill="#031525" stroke="#00f0ff" stroke-opacity="0.35" stroke-width="1" />
-    <circle cx="16" cy="14" r="4.5" fill="#10b981" class="pulsing-dot" filter="url(#glow)" />
-    <text x="28" y="18" fill="#38bdf8" class="badge-text">STATUS: BUILDING &amp; OPEN TO COLLAB</text>
+  <!-- Top Status Badge -->
+  <g transform="translate(32, 22)">
+    <rect x="0" y="0" width="280" height="26" rx="13" fill="#031422" stroke="#00f0ff" stroke-opacity="0.4" stroke-width="1" />
+    <circle cx="15" cy="13" r="4.5" fill="#10b981" class="pulsing-beacon" filter="url(#neonGlow)" />
+    <text x="28" y="17" fill="#38bdf8" class="mono-pill">STATUS: OPEN FOR ARCHITECTURE</text>
   </g>
 
-  <!-- Top Right ID Badge -->
-  <g transform="translate(670, 26)">
-    <rect x="0" y="0" width="200" height="28" rx="14" fill="#1e112a" stroke="#8b5cf6" stroke-opacity="0.4" stroke-width="1" />
-    <text x="18" y="18" fill="#c084fc" class="badge-text">@abirthe // GITHUB ARCHITECT</text>
+  <!-- Top Right Username Tag -->
+  <g transform="translate(688, 22)">
+    <rect x="0" y="0" width="180" height="26" rx="13" fill="#170d26" stroke="#8b5cf6" stroke-opacity="0.4" stroke-width="1" />
+    <text x="16" y="17" fill="#c084fc" class="mono-pill">@abirthe // SYSTEMS</text>
   </g>
 
-  <!-- Hero Main Name -->
-  <text x="32" y="108" fill="url(#textGrad)" class="hero-name">ABIR HOSSAIN</text>
-  <text x="32" y="136" fill="url(#accentGrad)" class="hero-sub">Full-Stack Systems Architect • FinTech &amp; Precision AgTech Engineer</text>
+  <!-- Hero Name -->
+  <text x="32" y="95" fill="url(#titleGrad)" class="main-title">ABIR HOSSAIN</text>
+  <text x="32" y="122" fill="url(#accentGrad)" class="sub-title">Full-Stack Architect • Autonomous Systems &amp; FinTech Solutions</text>
+  <text x="32" y="148" class="tagline">Zero-defect engineering with verified MFS escrow contracts, spatial GIS, and real-time edge automation.</text>
 
-  <!-- Bio Quote / Mission Statement -->
-  <text x="32" y="170" fill="#94a3b8" class="hero-sub" font-size="13px">
-    "Engineering fault-tolerant distributed platforms with zero-defect discipline, verified crypto/MFS escrow, and edge automation."
-  </text>
-
-  <!-- Modern Feature Pills (Lovable-Style Chips) -->
-  <g transform="translate(32, 202)">
-    <!-- Pill 1: AgTech & GIS -->
+  <!-- Feature Chips (Well-Spaced &amp; Guaranteed Not To Overflow) -->
+  <g transform="translate(32, 168)">
+    <!-- Chip 1 -->
     <g transform="translate(0, 0)">
-      <rect x="0" y="0" width="195" height="34" rx="10" fill="#0c1e1a" stroke="#10b981" stroke-opacity="0.45" stroke-width="1" />
-      <text x="14" y="21" fill="#34d399" class="pill-label">🌾 Spatial GIS &amp; In-Browser ML</text>
+      <rect x="0" y="0" width="190" height="30" rx="8" fill="#061f18" stroke="#10b981" stroke-opacity="0.5" stroke-width="1" />
+      <text x="12" y="19.5" fill="#34d399" class="chip-text">🌾 Precision GIS &amp; ML Yield</text>
     </g>
 
-    <!-- Pill 2: Digital Commerce -->
-    <g transform="translate(205, 0)">
-      <rect x="0" y="0" width="195" height="34" rx="10" fill="#111c2e" stroke="#38bdf8" stroke-opacity="0.45" stroke-width="1" />
-      <text x="14" y="21" fill="#38bdf8" class="pill-label">⚡ High-Volume Commerce Engine</text>
+    <!-- Chip 2 -->
+    <g transform="translate(202, 0)">
+      <rect x="0" y="0" width="195" height="30" rx="8" fill="#0c192d" stroke="#38bdf8" stroke-opacity="0.5" stroke-width="1" />
+      <text x="12" y="19.5" fill="#38bdf8" class="chip-text">⚡ High-Volume Commerce</text>
     </g>
 
-    <!-- Pill 3: Telegram AI Bot Relay -->
-    <g transform="translate(410, 0)">
-      <rect x="0" y="0" width="200" height="34" rx="10" fill="#1d152f" stroke="#a855f7" stroke-opacity="0.45" stroke-width="1" />
-      <text x="14" y="21" fill="#c084fc" class="pill-label">🤖 Dual-Bot Telegram Automation</text>
+    <!-- Chip 3 -->
+    <g transform="translate(409, 0)">
+      <rect x="0" y="0" width="195" height="30" rx="8" fill="#1b122e" stroke="#a855f7" stroke-opacity="0.5" stroke-width="1" />
+      <text x="12" y="19.5" fill="#c084fc" class="chip-text">🤖 Dual Telegram AI Bot Relay</text>
     </g>
 
-    <!-- Pill 4: Zero Defect Security -->
-    <g transform="translate(620, 0)">
-      <rect x="0" y="0" width="215" height="34" rx="10" fill="#20131d" stroke="#f43f5e" stroke-opacity="0.45" stroke-width="1" />
-      <text x="14" y="21" fill="#fb7185" class="pill-label">🛡️ Default-Deny RLS &amp; 140+ Tests</text>
+    <!-- Chip 4 -->
+    <g transform="translate(616, 0)">
+      <rect x="0" y="0" width="215" height="30" rx="8" fill="#20101b" stroke="#f43f5e" stroke-opacity="0.5" stroke-width="1" />
+      <text x="12" y="19.5" fill="#fb7185" class="chip-text">🛡️ Default-Deny RLS &amp; 148+ Tests</text>
     </g>
   </g>
-
-  <!-- Glowing Accent Line at Bottom -->
-  <path d="M 40 268 L 860 268" stroke="url(#borderGrad)" stroke-width="1.5" stroke-linecap="round" opacity="0.6" />
 </svg>
